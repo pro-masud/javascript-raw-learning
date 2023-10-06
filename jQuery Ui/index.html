@@ -6,16 +6,29 @@
     <title>jQuery UI Demos</title>
     <link rel="stylesheet" href="./jquery-ui/jquery-ui.min.css">
     
-    <script src="jquery-ui/external/jquery/jquery.js"></script>
-    <script src="jquery-ui/jquery-ui.min.js"></script>
+    
 </head>
 <body>
     <!-- datepicker demo within jquery ui -->
     <p><input type="text" id="datepicker"></p>
 
 
+    <!-- Accordion  effect within jQuery UI Plugin-->
+    <div id="accordion">
+        <h2>This is a Title One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem reprehenderit nihil cupiditate! Quidem, possimus velit voluptates aperiam dolorum quibusdam officia.</p>
+        <h2>This is a Title One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem reprehenderit nihil cupiditate! Quidem, possimus velit voluptates aperiam dolorum quibusdam officia.</p>
+        <h2>This is a Title One</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem reprehenderit nihil cupiditate! Quidem, possimus velit voluptates aperiam dolorum quibusdam officia.</p>
+    </div>
+
+
+    <script src="jquery-ui/external/jquery/jquery.js"></script>
+    <script src="jquery-ui/jquery-ui.min.js"></script>
     <script>
         $( "#datepicker" ).datepicker();
+        $( "#accordion" ).accordion();
     </script>
 </body>
 </html>
